@@ -1,0 +1,17 @@
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\bin\Debug\net7.0\Security.Infrastructure.deps.json
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\bin\Debug\net7.0\Security.Infrastructure.dll
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\bin\Debug\net7.0\Security.Infrastructure.pdb
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\bin\Debug\net7.0\Security.Application.dll
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\bin\Debug\net7.0\Security.Domain.dll
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\bin\Debug\net7.0\Security.Application.pdb
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\bin\Debug\net7.0\Security.Domain.pdb
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\obj\Debug\net7.0\Security.Infrastructure.csproj.AssemblyReference.cache
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\obj\Debug\net7.0\Security.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\obj\Debug\net7.0\Security.Infrastructure.AssemblyInfoInputs.cache
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\obj\Debug\net7.0\Security.Infrastructure.AssemblyInfo.cs
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\obj\Debug\net7.0\Security.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\obj\Debug\net7.0\Security.Infrastructure.csproj.CopyComplete
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\obj\Debug\net7.0\Security.Infrastructure.dll
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\obj\Debug\net7.0\refint\Security.Infrastructure.dll
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\obj\Debug\net7.0\Security.Infrastructure.pdb
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Infrastructure\obj\Debug\net7.0\ref\Security.Infrastructure.dll

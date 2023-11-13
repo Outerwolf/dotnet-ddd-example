@@ -1,0 +1,15 @@
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\bin\Debug\net7.0\Security.Application.deps.json
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\bin\Debug\net7.0\Security.Application.dll
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\bin\Debug\net7.0\Security.Application.pdb
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\bin\Debug\net7.0\Security.Domain.dll
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\bin\Debug\net7.0\Security.Domain.pdb
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\obj\Debug\net7.0\Security.Application.csproj.AssemblyReference.cache
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\obj\Debug\net7.0\Security.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\obj\Debug\net7.0\Security.Application.AssemblyInfoInputs.cache
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\obj\Debug\net7.0\Security.Application.AssemblyInfo.cs
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\obj\Debug\net7.0\Security.Application.csproj.CoreCompileInputs.cache
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\obj\Debug\net7.0\Security.Application.csproj.CopyComplete
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\obj\Debug\net7.0\Security.Application.dll
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\obj\Debug\net7.0\refint\Security.Application.dll
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\obj\Debug\net7.0\Security.Application.pdb
+C:\Development\Git\Personal\dotnet\HomeIoT\Security.Application\obj\Debug\net7.0\ref\Security.Application.dll

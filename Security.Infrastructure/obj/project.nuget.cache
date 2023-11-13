@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "6mc8UBncRrwHDZ/kLAWZFw+o5JrpjlgsEZS6Covh5BFSKUFCzb02JBv1p9kfxzom7Oel/LM7RoeAO9q9+VITlg==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\Git\\Personal\\dotnet\\HomeIoT\\Security.Infrastructure\\Security.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\camil\\.nuget\\packages\\google.protobuf\\3.25.0\\google.protobuf.3.25.0.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\grpc.core.api\\2.59.0\\grpc.core.api.2.59.0.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\grpc.net.client\\2.59.0\\grpc.net.client.2.59.0.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\grpc.net.common\\2.59.0\\grpc.net.common.2.59.0.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\camil\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
