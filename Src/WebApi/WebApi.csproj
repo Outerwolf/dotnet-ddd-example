@@ -20,8 +20,14 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Security\Auth\Security.Auth.API\Security.Auth.API.csproj" />
       <ProjectReference Include="..\Security\Auth\Security.Auth.Application\Security.Auth.Application.csproj" />
       <ProjectReference Include="..\Security\Auth\Security.Auth.Domain\Security.Auth.Domain.csproj" />
+      <ProjectReference Include="..\Security\Auth\Security.Auth.Infrastructure\Security.Auth.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Security.Auth\" />
     </ItemGroup>
 
 </Project>

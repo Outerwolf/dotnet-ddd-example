@@ -6,11 +6,11 @@ public abstract class DomainEvent
     public string EventId { get; }
     public string OccurredOn { get; }
 
-    protected DomainEvent(string aggregateId, string eventId, string occurredOn)
+    protected DomainEvent(string aggregateId, string eventId, string occurredAt)
     {
         AggregateId = aggregateId;
         EventId = eventId ?? Uuid.Random().Value;
-        OccurredOn = occurredOn ?? Utils.DateToString(DateTime.Now);
+        OccurredOn = occurredAt ?? Utils.DateToString(DateTime.Now);
     }
 
     protected DomainEvent()

@@ -5,7 +5,7 @@ namespace Security.Auth.Domain;
 
 public class SecurityAuthRole : StringValueObject
 {
-    private readonly IEnumerable<string> AuthRoles = new[] { "SUPER_USER", "USER", "THIRD_PARTY" };
+    private readonly IEnumerable<string> AuthRoles = new[] { "SUPER_ADMIN", "USER", "THIRD_PARTY" };
 
     public SecurityAuthRole(string value) : base(value)
     {
