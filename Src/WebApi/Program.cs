@@ -1,5 +1,6 @@
 using System.Reflection;
 using MediatR;
+using Security.Auth.API.Extension;
 using Security.Auth.Application;
 using Security.Auth.Application.RegisterUser;
 using WebApi;
@@ -9,12 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers()
-    .AddApplicationPart(typeof(SecurityAuthModule).Assembly);
-builder.Services.AddMediatR(cfg =>
-{
-    cfg.RegisterServicesFromAssembly(Assembly.GetAssembly(typeof(SecurityAuthApplicationModule)));
-});
+builder.Services.AddSecurityAuthApi();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
