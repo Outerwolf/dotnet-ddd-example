@@ -10,10 +10,9 @@ public class RegisterUserHandler: IRequestHandler<RegisterUserCommand>
     {
         _registerUser = registerUser;
     }
-    public Task Handle(RegisterUserCommand request, CancellationToken cancellationToken)
+    public async Task Handle(RegisterUserCommand request, CancellationToken cancellationToken)
     {
-        _registerUser.Execute(Username: request.Username, Password: request.Password, Role: request.Role,
-            Identification: request.Identification);
-        return Task.CompletedTask;
+        await _registerUser.Execute(Username: request.Username, Password: request.Password, Role: request.Role,
+            Identification: request.Identification, cancellationToken);
     }
 }

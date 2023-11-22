@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Security.Auth.Application.RegisterUser;
 
@@ -14,8 +15,9 @@ public class SecurityAuthController
         _mediator = mediator;
     }
     [HttpPost(Name = "SignUp")]
-    public Task SignUp([FromBody] UserRegistrationDto req)
+    public Task SignUp([FromBody] UserRegistrationDto req, CancellationToken cancellationToken)
     {
-        return _mediator.Send(new RegisterUserCommand(req.Username, req.Password, req.Role, req.Identification));
+        
+        return _mediator.Send(new RegisterUserCommand(req.Username, req.Password, req.Role, req.Identification), cancellationToken);
     }
 }
