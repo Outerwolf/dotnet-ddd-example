@@ -6,19 +6,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7F5107BD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "Src\WebApi\WebApi.csproj", "{BE0988E6-3409-48A2-B7AC-CCF280763E01}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{5C07649F-A433-4EF0-9913-80BE0B2072B7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{5C07649F-A433-4EF0-9913-80BE0B2072B7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{E393C6F5-0EAD-4374-B655-2806329633E6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{E393C6F5-0EAD-4374-B655-2806329633E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.Auth.Application", "Src\Security\Auth\Security.Auth.Application\Security.Auth.Application.csproj", "{3C83DDFD-8CF3-47F1-A096-007CCCB16C3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Security.Application", "Src\Security\Auth\User.Security.Application\User.Security.Application.csproj", "{3C83DDFD-8CF3-47F1-A096-007CCCB16C3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.Auth.Domain", "Src\Security\Auth\Security.Auth.Domain\Security.Auth.Domain.csproj", "{336E37C4-D4A6-462C-813C-CE52853B2024}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Security.Domain", "Src\Security\Auth\User.Security.Domain\User.Security.Domain.csproj", "{336E37C4-D4A6-462C-813C-CE52853B2024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.Auth.Infrastructure", "Src\Security\Auth\Security.Auth.Infrastructure\Security.Auth.Infrastructure.csproj", "{E111730B-C045-4982-9FDB-791FA4C00F28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Security.Infrastructure", "Src\Security\Auth\User.Security.Infrastructure\User.Security.Infrastructure.csproj", "{E111730B-C045-4982-9FDB-791FA4C00F28}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Src\Shared\Shared.csproj", "{AEF333D5-B74E-4D54-8E76-41F579A37DD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security.Auth.API", "Src\Security\Auth\Security.Auth.API\Security.Auth.API.csproj", "{B8811492-C624-4FF0-A638-950E2045712A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Security.API", "Src\Security\Auth\User.Security.API\User.Security.API.csproj", "{B8811492-C624-4FF0-A638-950E2045712A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

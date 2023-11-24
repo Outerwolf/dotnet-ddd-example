@@ -12,6 +12,11 @@ public class Uuid: ValueObject
         Value = value;
     }
 
+    protected Uuid()
+    {
+        
+    }
+
     private void EnsureIsValidUuid(string value)
     {
         if (!Guid.TryParse(value, out var Uuid))

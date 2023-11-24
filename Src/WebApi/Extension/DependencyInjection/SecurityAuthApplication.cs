@@ -10,7 +10,7 @@ public static class SecurityAuthApplication
     {
         services.AddMediatR(cfg =>
         {
-            cfg.RegisterServicesFromAssembly(Assembly.GetAssembly(typeof(SecurityAuthApplicationModule)));
+            cfg.RegisterServicesFromAssembly(Assembly.GetAssembly(typeof(UserSecurityApplicationModule)));
         });
         services.AddScoped<RegisterUser>();
         return services;

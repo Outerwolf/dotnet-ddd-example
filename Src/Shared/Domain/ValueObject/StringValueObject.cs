@@ -9,6 +9,11 @@ public class StringValueObject: ValueObject
         Value = value;
     }
 
+    protected StringValueObject()
+    {
+        
+    }
+
     public override string ToString()
     {
         return Value;

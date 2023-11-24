@@ -10,6 +10,10 @@
     <ItemGroup>
         <PackageReference Include="MediatR" Version="12.1.1" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     </ItemGroup>
 
@@ -20,13 +24,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Security\Auth\Security.Auth.API\Security.Auth.API.csproj" />
-      <ProjectReference Include="..\Security\Auth\Security.Auth.Application\Security.Auth.Application.csproj" />
-      <ProjectReference Include="..\Security\Auth\Security.Auth.Domain\Security.Auth.Domain.csproj" />
-      <ProjectReference Include="..\Security\Auth\Security.Auth.Infrastructure\Security.Auth.Infrastructure.csproj" />
+      <ProjectReference Include="..\Security\Auth\User.Security.API\User.Security.API.csproj" />
+      <ProjectReference Include="..\Security\Auth\User.Security.Application\User.Security.Application.csproj" />
+      <ProjectReference Include="..\Security\Auth\User.Security.Domain\User.Security.Domain.csproj" />
+      <ProjectReference Include="..\Security\Auth\User.Security.Infrastructure\User.Security.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Configuration\" />
       <Folder Include="Security.Auth\" />
     </ItemGroup>
 

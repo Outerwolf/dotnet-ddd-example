@@ -7,7 +7,7 @@ public static class SecurityAuthApi
     public static IServiceCollection AddSecurityAuthApi(this IServiceCollection services)
     {
         services.AddControllers()
-            .AddApplicationPart(typeof(SecurityAuthApiExtensions).Assembly);
+            .AddApplicationPart(typeof(UserSecurityApiExtensions).Assembly);
         return services;
     }
 }

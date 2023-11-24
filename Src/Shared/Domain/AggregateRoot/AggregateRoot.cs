@@ -2,10 +2,19 @@ using Shared.Domain.ValueObject;
 
 namespace Shared.Domain.AggregateRoot;
 
-public abstract class AggregateRoot
+public abstract class AggregateRoot<TId>: Entity<TId>
+    where TId: notnull
 {
     private List<DomainEvent> _domainEvents = new List<DomainEvent>();
 
+    protected AggregateRoot(TId id): base(id)
+    {
+        
+    }
+    protected AggregateRoot()
+    {
+        
+    }
     public List<DomainEvent> PullDomainEvents()
     {
         var events = _domainEvents;
