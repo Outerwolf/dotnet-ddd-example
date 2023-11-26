@@ -5,7 +5,7 @@
 namespace Security.Auth.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class SecurityUser : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,7 +16,8 @@ namespace Security.Auth.Infrastructure.Migrations
                 {
                     UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
+                    HashPassword = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    SaltPassword = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Role = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false),
                     Identification = table.Column<string>(type: "nvarchar(128)", maxLength: 128, nullable: false)
                 },

@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "Src\WebApi\WebApi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{5C07649F-A433-4EF0-9913-80BE0B2072B7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{E393C6F5-0EAD-4374-B655-2806329633E6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{E393C6F5-0EAD-4374-B655-2806329633E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Security.Application", "Src\Security\Auth\User.Security.Application\User.Security.Application.csproj", "{3C83DDFD-8CF3-47F1-A096-007CCCB16C3A}"
 EndProject

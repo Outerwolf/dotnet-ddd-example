@@ -27,12 +27,12 @@ namespace Security.Auth.Infrastructure.Migrations
                         .HasColumnType("nvarchar(450)")
                         .HasColumnName("UserId");
 
-                    b.Property<string>("Identification")
+                    b.Property<string>("HashPassword")
                         .IsRequired()
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
-                    b.Property<string>("Password")
+                    b.Property<string>("Identification")
                         .IsRequired()
                         .HasMaxLength(128)
                         .HasColumnType("nvarchar(128)");
@@ -41,6 +41,11 @@ namespace Security.Auth.Infrastructure.Migrations
                         .IsRequired()
                         .HasMaxLength(128)
                         .HasColumnType("nvarchar(128)");
+
+                    b.Property<string>("SaltPassword")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("UserName")
                         .IsRequired()

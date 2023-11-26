@@ -15,6 +15,7 @@ public class UserSecurityController
         _mediator = mediator;
     }
     [HttpPost(Name = "SignUp")]
+    [ProducesResponseType(StatusCodes.Status201Created)]
     public Task SignUp([FromBody] UserRegistrationDto req, CancellationToken cancellationToken)
     {
         

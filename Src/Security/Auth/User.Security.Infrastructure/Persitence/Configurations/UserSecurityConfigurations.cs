@@ -33,11 +33,16 @@ public class UserSecurityConfigurations: IEntityTypeConfiguration<UserSecurity>
                 username => username.Value,
                 value => new UserSecurityUserName(value))
             .HasMaxLength(128);
-        builder.Property(m => m.Password)
+        builder.Property(m => m.HashPassword)
             .HasConversion(
-                password => password.Value,
-                value => new UserSecurityPassword(value))
-            .HasMaxLength(128);
+                hashPassword => hashPassword.Value,
+                value => new UserSecurityHashPassword(value)  )
+            .HasMaxLength(255);
+        builder.Property(m => m.SaltPassword)
+            .HasConversion(
+                saltPassword => saltPassword.Value,
+                value => new UserSecuritySaltPassword(value))
+            .HasMaxLength(255);
         builder.Property(m => m.Role)
             .HasConversion(
                 role => role.Value,
