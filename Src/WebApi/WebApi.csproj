@@ -28,11 +28,13 @@
       <ProjectReference Include="..\Security\Auth\User.Security.Application\User.Security.Application.csproj" />
       <ProjectReference Include="..\Security\Auth\User.Security.Domain\User.Security.Domain.csproj" />
       <ProjectReference Include="..\Security\Auth\User.Security.Infrastructure\User.Security.Infrastructure.csproj" />
+      <ProjectReference Include="..\User\Auth\User.Security.API\User.Security.API.csproj" />
+      <ProjectReference Include="..\User\Auth\User.Security.Application\User.Security.Application.csproj" />
+      <ProjectReference Include="..\User\Auth\User.Security.Infrastructure\User.Security.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Configuration\" />
-      <Folder Include="Security.Auth\" />
     </ItemGroup>
 
 </Project>
