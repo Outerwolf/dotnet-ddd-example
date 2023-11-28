@@ -21,7 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\User.Security.Application\User.Security.Application.csproj" />
+      <ProjectReference Include="..\User.Auth.Application\User.Auth.Application.csproj" />
     </ItemGroup>
 
 </Project>

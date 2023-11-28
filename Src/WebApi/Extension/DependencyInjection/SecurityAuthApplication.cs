@@ -12,7 +12,7 @@ public static class SecurityAuthApplication
         {
             cfg.RegisterServicesFromAssembly(Assembly.GetAssembly(typeof(UserSecurityApplicationModule)));
         });
-        services.AddScoped<RegisterUser>();
+        services.AddScoped<RegisterUserUseCase>();
         return services;
     }
 }

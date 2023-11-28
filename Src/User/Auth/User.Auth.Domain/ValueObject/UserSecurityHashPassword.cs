@@ -6,7 +6,6 @@ namespace Security.Auth.Domain.ValueObject;
 public class UserSecurityHashPassword : StringValueObject
 {
     private const int MIN_PASSWORD_LENGTH = 16;
-    private const int MAX_PASSWORD_LENGTH = 128;
 
     public UserSecurityHashPassword(string value) : base(value)
     {

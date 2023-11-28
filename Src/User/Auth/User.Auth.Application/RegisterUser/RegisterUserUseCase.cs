@@ -5,12 +5,12 @@ using Security.Auth.Domain.ValueObject;
 using Security.Auth.Infrastructure.Security;
 
 namespace Security.Auth.Application.RegisterUser;
-public class RegisterUser
+public class RegisterUserUseCase
 {
     private readonly UserSecurityRepository _userSecurityRepository;
     private readonly IPasswordHasher _passwordHasher;
 
-    public RegisterUser(UserSecurityRepository userSecurityRepository, IPasswordHasher passwordHasher)
+    public RegisterUserUseCase(UserSecurityRepository userSecurityRepository, IPasswordHasher passwordHasher)
     {
         _userSecurityRepository = userSecurityRepository;
         _passwordHasher = passwordHasher;
