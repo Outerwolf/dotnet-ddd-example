@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Security.Auth.Domain.Interface;
 using Security.Auth.Infrastructure.Persitance;
+using Security.Auth.Infrastructure.Persitence;
 using Security.Auth.Infrastructure.Persitence.Repositories;
 using Security.Auth.Infrastructure.Security;
 

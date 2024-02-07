@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Security.Auth.Domain;
 
-namespace Security.Auth.Infrastructure.Persitance;
+namespace Security.Auth.Infrastructure.Persitence;
 
 public class UserSecurityDbContext : DbContext
 {

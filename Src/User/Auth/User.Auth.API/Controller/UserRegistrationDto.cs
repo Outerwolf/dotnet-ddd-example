@@ -1,4 +1,4 @@
-﻿namespace WebApi.Security.Auth.Controller;
+﻿namespace Security.Auth.API.Controller;
 
 public class UserRegistrationDto
 {

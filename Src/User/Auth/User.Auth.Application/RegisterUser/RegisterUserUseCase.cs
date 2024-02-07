@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Http;
 using Security.Auth.Domain;
 using Security.Auth.Domain.Interface;
 using Security.Auth.Domain.ValueObject;
-using Security.Auth.Infrastructure.Security;
 
 namespace Security.Auth.Application.RegisterUser;
 public class RegisterUserUseCase

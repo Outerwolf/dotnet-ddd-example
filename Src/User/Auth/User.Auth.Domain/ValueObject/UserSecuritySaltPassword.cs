@@ -1,6 +1,6 @@
 using Shared.Domain.ValueObject;
 
-namespace Security.Auth.Domain;
+namespace Security.Auth.Domain.ValueObject;
 
 public class UserSecuritySaltPassword: StringValueObject
 {

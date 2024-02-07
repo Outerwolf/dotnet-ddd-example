@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Security.Auth.Application.RegisterUser;
 
-namespace WebApi.Security.Auth.Controller;
+namespace Security.Auth.API.Controller;
 
 [ApiController]
 [Route("api/[controller]")]

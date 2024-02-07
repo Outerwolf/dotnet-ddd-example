@@ -4,7 +4,6 @@ using Security.Auth.Application.RegisterUser;
 using Security.Auth.Domain;
 using Security.Auth.Domain.Interface;
 using Security.Auth.Domain.ValueObject;
-using Security.Auth.Infrastructure.Security;
 
 namespace User.Auth.Application.Tests.RegisterUser;
 

@@ -1,6 +1,7 @@
 using System.Security.Cryptography;
 using System.Text;
 using Microsoft.Extensions.Configuration;
+using Security.Auth.Domain.Interface;
 
 namespace Security.Auth.Infrastructure.Security;
 

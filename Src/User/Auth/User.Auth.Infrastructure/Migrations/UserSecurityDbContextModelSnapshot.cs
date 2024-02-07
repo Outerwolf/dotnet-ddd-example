@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Security.Auth.Infrastructure.Persitance;
+using Security.Auth.Infrastructure.Persitence;
 
 #nullable disable
 

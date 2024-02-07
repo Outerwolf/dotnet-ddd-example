@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Carter" Version="8.0.0" />
         <PackageReference Include="MediatR" Version="12.1.1" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
@@ -24,10 +25,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Security\Auth\User.Security.API\User.Security.API.csproj" />
-      <ProjectReference Include="..\Security\Auth\User.Security.Application\User.Security.Application.csproj" />
-      <ProjectReference Include="..\Security\Auth\User.Security.Domain\User.Security.Domain.csproj" />
-      <ProjectReference Include="..\Security\Auth\User.Security.Infrastructure\User.Security.Infrastructure.csproj" />
       <ProjectReference Include="..\User\Auth\User.Auth.API\User.Auth.API.csproj" />
       <ProjectReference Include="..\User\Auth\User.Auth.Application\User.Auth.Application.csproj" />
       <ProjectReference Include="..\User\Auth\User.Auth.Infrastructure\User.Auth.Infrastructure.csproj" />
